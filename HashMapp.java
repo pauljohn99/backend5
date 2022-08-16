@@ -17,10 +17,12 @@ public class HashMapp {
 				int mark=read.nextInt();
 				students.put(names, mark);
 			}
+			break;
 		case 2:
 			System.out.println("enter name of student");
 			String name=read.next();
 			System.out.println(students.get(name));
+			break;
 			
 		}
 		
