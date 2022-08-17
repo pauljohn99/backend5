@@ -16,7 +16,6 @@ public class Matrix3ArrayLIst {
 		int col2 = read.nextInt();
 		ArrayList<ArrayList<Integer>> m1 = new ArrayList<ArrayList<Integer>>();
 		ArrayList<ArrayList<Integer>> m2 = new ArrayList<ArrayList<Integer>>();
-		ArrayList<ArrayList<Integer>> pro = new ArrayList<ArrayList<Integer>>();
 		ArrayList<ArrayList<Integer>> multi = new ArrayList<ArrayList<Integer>>();
 		if (col1 == row2) {
 			System.out.println("enter elements of matrix 1");
@@ -53,5 +52,6 @@ public class Matrix3ArrayLIst {
 				System.out.println();
 			}
 		}
+	read.close();
 	}
 }
